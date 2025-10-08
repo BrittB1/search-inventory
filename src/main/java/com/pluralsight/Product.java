@@ -22,8 +22,6 @@ public class Product implements Comparable<Product> {
     public float getPrice() {
         return this.price;
     }
-
-    @Override
     public int compareTo(Product other) {
         return this.name.compareTo(other.name);
     }
